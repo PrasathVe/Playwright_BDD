@@ -1,0 +1,15 @@
+{
+    "default":{
+        "formatOptions":{
+            "snippetInterface":"async-await"
+        },
+        "paths":["src/test/features/eappLogin.feature"
+    ],
+    "dryRun":false,
+    "require":["src/test/steps/eappLogin.ts"
+],
+"requireModule":[
+    "ts-node/register"
+]
+    }
+}
